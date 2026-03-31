@@ -45,12 +45,13 @@
     file
     podman
     llvmPackages_latest.libclang
+    nodejs
 
     # term
     ripgrep
     bat
     zellij
-    rofi
+    fuzzel
     btop
     fastfetch
     yazi
@@ -65,11 +66,11 @@
   programs.fish = {
     enable = true;
     shellAbbrs = {
-      rebuild = "home-manager switch --flake ~/homemanager#pn";
+      rb = "home-manager switch --flake ~/homemanager#pn";
       ff = "fastfetch";
       lg = "lazygit";
-      editconfig = "nvim ~/homemanager/home.nix";
-      editflake = "nvim ~/homemanager/flake.nix";
+      ec = "nvim ~/homemanager/home.nix";
+      ef = "nvim ~/homemanager/flake.nix";
     };
     interactiveShellInit = ''
       set -g fish_greeting ""
