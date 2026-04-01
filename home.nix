@@ -71,6 +71,9 @@
       lg = "lazygit";
       ec = "nvim ~/homemanager/home.nix";
       ef = "nvim ~/homemanager/flake.nix";
+      sshloq = "ssh pn@ssh.duskoide.org";
+      cd = "z";
+      cdi = "zi";
     };
     interactiveShellInit = ''
       set -g fish_greeting ""
