@@ -74,6 +74,7 @@
       sshloq = "ssh pn@ssh.duskoide.org";
       cd = "z";
       cdi = "zi";
+      archlinux = "distrobox enter arch";
     };
     interactiveShellInit = ''
       set -g fish_greeting ""
